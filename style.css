@@ -1,0 +1,11 @@
+* {
+  font-size: 1.4rem;
+}
+.container {
+  display: inline-flex;
+  background: rgb(47, 192, 255);
+  gap: 40px;
+}
+.box {
+  background: rgb(138, 222, 253);
+}
