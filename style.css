@@ -1,11 +1,27 @@
 * {
   font-size: 1.4rem;
 }
+body {
+  margin: 0;
+}
+/* flex container */
 .container {
-  display: inline-flex;
+  /* mặc định */
+  /* justify-content: flex-start; */
+  /* về phải */
+  /* justify-content: end; */
+  /* về giữa */
+  /* justify-content: center; */
+  /* trải đều với khoảng cách bằng nhau và sát lề */
+  /* justify-content: space-between; */
+  /* xung quanh các phần tử bằng nhau nhưng không sát lề */
+  /* justify-content: space-around; */
+  /* cách đều nhau , cách cả lề */
+  justify-content: space-evenly;
+  display: flex;
   background: rgb(47, 192, 255);
   gap: 40px;
 }
 .box {
-  background: rgb(138, 222, 253);
+  background: rgb(138, 253, 192);
 }
