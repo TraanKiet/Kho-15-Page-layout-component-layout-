@@ -17,11 +17,26 @@ body {
   /* xung quanh các phần tử bằng nhau nhưng không sát lề */
   /* justify-content: space-around; */
   /* cách đều nhau , cách cả lề */
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
+  /* ________________________________________________________ */
+  /* align-items */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  /* căn theo chân phần tử */
+  /* align-items: baseline; */
+  /* mặc định */
+  /* align-items: stretch; */
+  /* căn giữa */
+  /* align-items: center; */
   display: flex;
   background: rgb(47, 192, 255);
+  width: 100%;
+  height: 200px;
   gap: 40px;
 }
 .box {
   background: rgb(138, 253, 192);
+}
+.box1 {
+  font-size: 1.7rem;
 }
