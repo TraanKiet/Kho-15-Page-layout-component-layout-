@@ -28,15 +28,37 @@ body {
   /* align-items: stretch; */
   /* căn giữa */
   /* align-items: center; */
+
+  /* flex-wrap và align-content */
+  /* ________________________________________________________ */
+  /* xuống hàng */
+  /* flex-wrap: wrap; */
+  /* xuống hàng + đảo ngược */
+  /* flex-wrap: wrap-reverse; */
+  /* ________________________________________________________ */
+  /* align-content */
+  /* áp dụng khi 2 hàng trở lên và kết hợp với flex-warp */
+  height: 400px;
+  flex-wrap: wrap;
+  /* align-content: stretch; */
+  /* dồn lên phía cross start của thẻ cha ( container ) */
+  /* align-content: flex-start; */
+  /* align-items: flex-end; */
+  /* căn giữa */
+  /* align-content: center; */
+  /* khoảng cách đều + sát lề */
+  /* align-content: space-between; */
+  /* khoảng cách đều + cách lề */
+  /* align-content: space-around; */
   display: flex;
   background: rgb(47, 192, 255);
-  width: 100%;
-  height: 200px;
   gap: 40px;
 }
 .box {
+  border: 1px solid black;
+  width: 10%;
   background: rgb(138, 253, 192);
 }
 .box1 {
-  font-size: 1.7rem;
+  /* font-size: 1.7rem; */
 }
