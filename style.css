@@ -38,7 +38,8 @@ body {
   /* ________________________________________________________ */
   /* align-content */
   /* áp dụng khi 2 hàng trở lên và kết hợp với flex-warp */
-  height: 400px;
+  height: 200px;
+  width: 100%;
   flex-wrap: wrap;
   /* align-content: stretch; */
   /* dồn lên phía cross start của thẻ cha ( container ) */
@@ -50,13 +51,23 @@ body {
   /* align-content: space-between; */
   /* khoảng cách đều + cách lề */
   /* align-content: space-around; */
+  /* ________________________________________________________ */
+  /* flex-direction flex-flow */
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  /* justify-content: flex-end; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* flex flow cú pháp viết tắt */
+  /* wrap là xuống dòng , row hướng trục main theo hàng */
+  flex-flow: row-reverse wrap;
   display: flex;
   background: rgb(47, 192, 255);
-  gap: 40px;
+  gap: 35px;
 }
 .box {
-  border: 1px solid black;
-  width: 10%;
+  border: 2px solid black;
+  width: 11%;
   background: rgb(138, 253, 192);
 }
 .box1 {
